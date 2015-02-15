@@ -1,0 +1,14 @@
+This JS code shows the chessboard using FEN notation. It can be used in javascript-enabled emails.
+
+<script src='chess-min.js' type='text/javascript'></script>
+<script type='text/javascript'>
+	var chess = new Chess(); 
+	chess.update('rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2');
+	document.write('<p>');
+	document.write(chess.code(250));
+	document.write('</p>');
+</script>
+
+Similar sites
+http://p4wn.sourceforge.net/
+http://www.shredderchess.com/play-chess-online.html
